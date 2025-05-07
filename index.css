@@ -1,0 +1,20 @@
+h3{
+    color: green;
+    width: fit-content;
+    background-color: yellow;
+}
+p{
+    color: red;
+}
+.one{
+color: blue;
+}
+#three{
+    color: #de8dc6;
+}
+body{
+    /* background-color: rgb(14, 9, 9); */
+    /* background-image: linear-gradient(red,green,blue); */
+    height: 100vh;
+    background-image: radial-gradient(red,green,blue);
+}

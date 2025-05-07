@@ -1,0 +1,43 @@
+.container{
+width: 1000px;
+height: 500px;
+animation-name: cat;
+animation-duration: 10s;
+animation-delay: 2s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: normal; 
+}
+@keyframes cat{
+0%{
+background-image: url(bentley-bacalar.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+25%{
+background-image: url(bentley-bacalar\ \(5\).jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+50%{
+    background-image: url(bentley-bacalar\ \(7\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+ 75%{
+     background-image: url(bentley-bacalar\ \(4\).jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     }
+    100%{
+     background-image: url(bentley-bacalar\ \(2\).jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     }
+
+}

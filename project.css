@@ -1,0 +1,286 @@
+*{
+padding: 0;
+margin: 0;
+}
+header{
+background-color: rgb(190, 178, 173);
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 480px;
+top: 0;
+position: fixed;
+z-index: 99;
+}
+.pl{
+position: relative;
+left: -330px;
+font-family: 'Courier New', Courier, monospace;
+color: firebrick ;
+}
+.xt{
+position: relative;
+left: -330px;
+font-family: 'Courier New', Courier, monospace;
+color: forestgreen ;
+}
+nav ul{
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 20px;
+}
+nav ul li{
+list-style: none;
+}
+nav ul li a{
+text-decoration: none;
+color: black;
+}
+nav ul li a:hover{
+color: yellowgreen;
+text-decoration: underline;
+}
+nav ul li input{
+background-color: rgb(63, 63, 63);
+border-radius: 10px;
+padding: 6px;
+/* transform: translateY(-50%);
+cursor: pointer;
+transition: 0.4s ease-in-out;
+position: absolute; */
+}
+nav ul li button{
+background-color: rgb(239, 229, 226);
+padding: 2px 3px;
+border-radius: 5px;
+/* width: 10px; */
+}
+.fir{
+background-image: url(aston.webp);
+background-position: center;
+background-size: cover;
+height: 400px;
+position: relative;
+top: 50px;
+}
+.fir h1{
+color: red;
+width: 400px;
+position: relative;
+top: 120px;
+left: 100px;
+font-size: 40px;
+/* margin-left: 100px; */
+/* text-align: center; */
+/* line-height: 50px; */
+}
+.fir p{
+color: greenyellow;
+position: relative;
+top: 140px;
+left: 100px;
+width: 550px;
+font-size: 18px;
+}
+.fir button{
+position: relative;
+top: 150px;
+left: 120px;
+background-color: rgb(109, 251, 109);
+border-radius: 5px;
+padding: 8px 15px;
+}
+.sec{
+background-color: whitesmoke;
+/* width: 1000px; */
+height: 740px;
+display: flex;
+/* flex-direction: column; */
+flex-wrap: wrap;
+flex-flow: row wrap;
+/* justify-content: space-between; */
+justify-content: space-evenly;
+}
+.sec h1{
+font-family: Arial, Helvetica, sans-serif;
+position: relative;
+left: -50px;
+top: 60px;
+}
+.sec img{
+height: 180px;
+}
+.level{
+background-color: white;
+width: 360px;
+height: 500px;
+position: relative;
+left: -180px;
+top: 130px;
+border-radius: 20px;
+}
+.level h1{
+position: relative;
+top: -30px;
+font-size: 20px;
+font-family: Impact,;
+left: 50px;
+}
+.level p{
+position: relative;
+top: -20px;
+left: 55px;
+}
+.level ul{
+position: relative;
+top: -10px;
+left: 40px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.stage{
+    background-color: white;
+    width: 360px;
+    height: 500px;
+    position: relative;
+    left: -250px;
+    top: 130px;
+    border-radius: 20px;
+}
+.stage h1{
+    position: relative;
+    top: -30px;
+    font-size: 20px;
+    font-family: Impact,;
+    left: 50px;
+}
+.stage p{
+    position: relative;
+    top: -20px;
+    left: 55px;
+}
+.stage ul{
+    position: relative;
+top: -10px;
+left: 40px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ground{
+    background-color: white;
+    width: 360px;
+    height: 500px;
+    position: relative;
+    left: -321px;
+    top: 130px;
+    border-radius: 20px;
+}
+.ground h1{
+    position: relative;
+    top: -30px;
+    font-size: 20px;
+    font-family: Impact,;
+    left: 50px;   
+}
+.ground p{
+    position: relative;
+    top: -20px;
+    left: 55px;   
+}
+.ground ul{
+position: relative;
+top: -10px;
+left: 40px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.third{
+    background-color: rgb(220, 219, 219);
+    height: 400px;
+}
+.third img{
+    height: 350px;
+    left: 400px;
+    top: -195px;
+    position: relative;
+    border-radius: 6px;
+}
+.third h1{
+    width: 300px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    font-family: Arial ;
+}
+.third p{
+    width: 200px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+.third button{
+    background-color: gray;
+    position: relative;
+    top: -220px;
+    padding: 10px;
+    left: 100px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.wevy{
+height: 400px;
+background-color: rgba(0, 0, 0, 0.813);
+color: white;
+}
+.wevy img{
+height: 350px;
+position: relative;
+top: 30px;
+left: 20px;
+border-radius: 6px;
+}
+.wevy h1{
+    width: 400px;
+    position: relative;
+    left: 700px;
+    top: -250px;
+    font-family: Arial ;
+}
+.wevy p{
+width: 500px;
+position: relative;
+top: -230px;
+left: 700px;
+}
+.wevy button{
+    background-color: rgb(232, 225, 225);
+    position: relative;
+    top: -220px;
+    padding: 7px;
+    left: 700px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.wevy h2{
+position: relative;
+top: -230px;
+left: 700px;
+font-size: 30px;
+}
+.wevy h3{
+position: relative;
+top: -260px;
+left: 950px;
+}
+.wevy h5{
+position: relative;
+top: -255px;
+left: 950px;
+}
+
+.charge {
+    padding: 10px 0 0 0;
+}
+.charge-two {
+margin-top: -58px;
+}
+.charge-two h3 {
+    font-size: 30px;
+}

@@ -1,0 +1,21 @@
+.container{
+width: 100px;
+height: 100px;
+background-color: red;
+/* transition-property: all; */
+/* transition-duration: 5s; */
+/* transition-timing-function: linear; */
+/* transition-delay: 2s; */
+transition: all 5s linear 2s;
+}
+/* .container :hover{ */
+/* transform: translateY(50px, 50px); */
+/* transform: rotate(120deg); */
+/* transform: scale(2); */
+/* transform: skew(120deg); */
+/* } */
+.container:hover{
+width: 200px;
+height: 200px;
+background-color: yellow;
+} 

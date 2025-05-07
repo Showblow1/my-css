@@ -1,0 +1,58 @@
+a{
+text-decoration: none;
+color: red;
+}
+a:hover{
+color: green;
+}
+a:active{
+color: orange;
+}
+a:visited{
+color: purple;
+}
+input:checked{
+width: 30px;
+height: 30px;
+}
+input:focus{
+color: blue;
+background-color: red;
+}
+p:first-of-type{
+    color: blue;
+}
+p:last-of-type{
+    color: green;
+}
+p:nth-of-type(3){
+    color: orange;
+}
+div :first-child{
+    color: green;
+}
+div :last-child{
+    color: brown;
+}
+h1::first-letter{
+    font-size: 70px;
+}
+h1::first-line{
+    color: orange;
+}
+p::before{
+    content: "123";
+}
+p::after{
+    content: "456";
+}
+h1::selection{
+    color: green;
+    background-color: brown;
+}
+li{
+    color: red;
+}
+li::marker{
+    color: blue;
+}
